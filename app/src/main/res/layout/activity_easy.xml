@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fonoviy"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".easyActivity">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="iskandar zor dasturchimi"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <RadioGroup
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt">
+
+        <RadioButton
+            android:id="@+id/rd_btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xa"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <RadioButton
+
+            android:id="@+id/rd_btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="bolishi mumkin"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rd_btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="albatta"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rd_btn4"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:text="100foiz"
+            android:textSize="15sp" />
+    </RadioGroup>
+</RelativeLayout>

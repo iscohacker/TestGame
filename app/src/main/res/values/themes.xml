@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.TestGame" parent="Theme.Material3.DayNight.NoActionBar">
+     <item name="android:statusBarColor">@color/black</item>
+    </style>
+
+    <style name="Theme.TestGame" parent="Base.Theme.TestGame" />
+</resources>
